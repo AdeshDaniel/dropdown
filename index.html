@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drop-down Menu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="menu-bar">
+      <i class="fa fa-bars"></i>
+      <ul>
+        <li class="active"><i class="fa fa-home"></i><a href="#">Home</a></li>
+        <li>
+          <i class="fa fa-user"></i><a href="#">About Us</a>
+          <div class="submenu">
+            <ul>
+              <li><a href="#">Mission</a></li>
+              <li><a href="#">Goals</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <i class="fa fa-business-time"></i><a href="#">Services</a>
+          <div class="submenu">
+            <ul>
+              <li><a href="#">Coding</a></li>
+              <li><a href="#">Training</a></li>
+              <li class="hover-me">
+                <a href="#">Building</a><i class="fa fa-angle-right"></i>
+                <div class="submenu-2">
+                  <ul>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">JS</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li><i class="fa fa-users"></i><a href="#">Clients</a></li>
+        <li><i class="fa fa-people-arrows"></i><a href="#">Investors</a></li>
+        <li><i class="fa fa-phone"></i><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <footer>
+      <span> &copy; 2022, TechPro. </span>
+    </footer>
+  </body>
+</html>
